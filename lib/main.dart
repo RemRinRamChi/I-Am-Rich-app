@@ -11,12 +11,8 @@ void main() {
           backgroundColor: Colors.blueGrey[900],
         ),
         body: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(60.0),
-            child: Image(
-              image: NetworkImage(
-                  "http://pluspng.com/img-png/diamond-hd-png-diamond-png-image-1233.png"),
-            ),
+          child: Image(
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
